@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border x:Name="MainWindow_Border" BorderBrush="#FFBB0303" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="10,10,10,10" Margin="332,0,0,0" Grid.Column="1"/>
+        <Button x:Name="MainWindow_ButtonAddTransaction" Content="Add new transaction" HorizontalAlignment="Left" Margin="22,20,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFB94242" Height="30" Width="168"/>
+        <DataGrid ItemsSource="{Binding Transactions}" Margin="10,89,10,147"/>
+        <TextBox x:Name="MainWindow_TextBox_ListOfAllTransactions" HorizontalAlignment="Center" Margin="0,71,0,0" TextWrapping="WrapWithOverflow" Text="List of all transactions" VerticalAlignment="Top" Width="780" TextAlignment="Center" Foreground="#FF102FDE" FontFamily="Arial Black"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\viewmodels\\mainwindow_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\mainwindow_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\viewmodels\\addtransactiondialog_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\addtransactiondialog_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\dialogs\\transaction\\addtransactiondialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\dialogs\\transaction\\addtransactiondialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\repository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\repository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\enums\\generalconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\enums\\generalconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|c:\\projekty w\u0142asne\\dotnetgui\\wpfapp1\\wpfapp1\\enums\\operationresults.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EEE0A21E-7A85-49C5-924A-651BE7AEEABE}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\enums\\operationresults.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 374,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow_ViewModel.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\viewmodels\\MainWindow_ViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\viewmodels\\MainWindow_ViewModel.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\viewmodels\\MainWindow_ViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\viewmodels\\MainWindow_ViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T17:13:02.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\repository\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\repository\\ITransactionRepository.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\repository\\ITransactionRepository.cs",
+              "RelativeToolTip": "WpfApp1\\repository\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T17:12:29.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\repository\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\repository\\TransactionRepository.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\repository\\TransactionRepository.cs",
+              "RelativeToolTip": "WpfApp1\\repository\\TransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T17:12:26.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-07T16:32:50.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:31:40.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OperationResults.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\enums\\OperationResults.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\enums\\OperationResults.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\enums\\OperationResults.cs",
+              "RelativeToolTip": "WpfApp1\\enums\\OperationResults.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:03:03.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GeneralConstants.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\enums\\GeneralConstants.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\enums\\GeneralConstants.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\enums\\GeneralConstants.cs",
+              "RelativeToolTip": "WpfApp1\\enums\\GeneralConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T15:35:38.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\models\\Transaction.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\models\\Transaction.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\models\\Transaction.cs",
+              "RelativeToolTip": "WpfApp1\\models\\Transaction.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAxwDAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T15:21:35.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddTransactionDialog.xaml.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\dialogs\\transaction\\AddTransactionDialog.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dialogs\\transaction\\AddTransactionDialog.xaml.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\dialogs\\transaction\\AddTransactionDialog.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\dialogs\\transaction\\AddTransactionDialog.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAhwCIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:26:43.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddTransactionDialog_ViewModel.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\viewmodels\\AddTransactionDialog_ViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\viewmodels\\AddTransactionDialog_ViewModel.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\viewmodels\\AddTransactionDialog_ViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\viewmodels\\AddTransactionDialog_ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T13:45:55.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\PROJEKTY W\u0141ASNE\\dotnetgui\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:31:00.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 652,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
