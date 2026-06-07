@@ -9,7 +9,16 @@
     <Grid>
         <Border x:Name="MainWindow_Border" BorderBrush="#FFBB0303" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="10,10,10,10" Margin="332,0,0,0" Grid.Column="1"/>
         <Button x:Name="MainWindow_ButtonAddTransaction" Content="Add new transaction" HorizontalAlignment="Left" Margin="22,20,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFB94242" Height="30" Width="168"/>
-        <DataGrid ItemsSource="{Binding Transactions}" Margin="10,89,10,147"/>
+        <DataGrid ItemsSource="{Binding Transactions}" Margin="10,89,10,147" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Transaction Date" Binding="{Binding TransactionDate}" />
+                <DataGridTextColumn Header="Amount" Binding="{Binding Amount}" />
+                <DataGridTextColumn Header="Currency" Binding="{Binding TransactionCurrency}" />
+                <DataGridTextColumn Header="Description" Binding="{Binding Comment}" />
+
+            </DataGrid.Columns>
+        </DataGrid>
         <TextBox x:Name="MainWindow_TextBox_ListOfAllTransactions" HorizontalAlignment="Center" Margin="0,71,0,0" TextWrapping="WrapWithOverflow" Text="List of all transactions" VerticalAlignment="Top" Width="780" TextAlignment="Center" Foreground="#FF102FDE" FontFamily="Arial Black"/>
 
     </Grid>

@@ -13,6 +13,7 @@ namespace WpfApp1.enums
         public static readonly Currency EUR = new("EUR", "€");
         public static readonly Currency GBP = new("GBP", "£");
         public static readonly Currency PLN = new("PLN", "zł");
+        public static readonly Currency DEFAULT = PLN;
 
         public static ImmutableList<Currency> All { get; } =
             [USD, EUR, GBP, PLN];

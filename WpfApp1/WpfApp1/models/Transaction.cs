@@ -39,8 +39,8 @@ namespace WpfApp1.models
         {
             var result = new ValidationResult();
 
-            if (Amount <= 0)
-                result.AddError("Amount must be greater than zero.");
+            if (Amount == 0)
+                result.AddError("Amount must be other than zero.");
 
             if (TransactionDate == null)
                 result.AddError("Transaction date cannot be in the future.");

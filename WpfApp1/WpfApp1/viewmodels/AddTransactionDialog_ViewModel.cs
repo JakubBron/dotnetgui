@@ -16,10 +16,10 @@ namespace WpfApp1.viewmodels
     public partial class AddTransactionDialog_ViewModel: ObservableObject
     {
         // data obtained
-        public Currency SelectedCurrency { get; set; }
+        public Currency SelectedCurrency { get; set; } = Currency.DEFAULT;
         public string Description { get; set; }
         public decimal Amount { get; set; }
-        public DateTime SelectedDate { get; set; } // DatePicker returns DateTime, need to convert to DateOnly
+        public DateTime SelectedDate { get; set; } = DateTime.Today;
 
         // data to bind
         public ImmutableList<Currency> Currencies { get; } = Currency.All;
