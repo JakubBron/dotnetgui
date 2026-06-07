@@ -20,19 +20,23 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <TextBlock Grid.Row="0" Grid.Column="0" Text="Amount:" Margin="5,5,10,5" VerticalAlignment="Center" Height="25"/>
             <TextBox Grid.Row="0" Grid.Column="1" Margin="0,5" x:Name="AmountBox" Text="{Binding Amount}" Height="25"/>
 
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="Currency:" Margin="5,5,10,5" VerticalAlignment="Center" Height="25"/>
-            <ComboBox Grid.Row="1" Grid.Column="1" Margin="0,5" ItemsSource="{Binding Currencies}" SelectedItem="{Binding SelectedCurrency}" DisplayMemberPath="Code" Height="25" />
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Transaction payment method:" Margin="5,5,10,5" VerticalAlignment="Center" Height="25"/>
+            <ComboBox Grid.Row="1" Grid.Column="1" Margin="0,5" ItemsSource="{Binding TransactionPaymentMethods}" SelectedItem="{Binding SelectedTransactionPaymentMethod}" Height="25" />
 
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Description:" Margin="5,5,10,5" VerticalAlignment="Center" Height="25" Width="90"/>
-            <TextBox Grid.Row="2" Grid.Column="1" Margin="0,5" Text="{Binding Description}" Height="25"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Currency:" Margin="5,5,10,5" VerticalAlignment="Center" Height="25"/>
+            <ComboBox Grid.Row="2" Grid.Column="1" Margin="0,5" ItemsSource="{Binding Currencies}" SelectedItem="{Binding SelectedCurrency}" DisplayMemberPath="Code" Height="25" />
 
-            <TextBlock Grid.Row="3" Grid.Column="0" Text="Transaction date:"  Margin="5,5,10,5" VerticalAlignment="Center" Height="25" />
-            <DatePicker Grid.Row="3" Grid.Column="1" Margin="0,5" Text="{Binding SelectedDate}" Height="25"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Description:" Margin="5,5,10,5" VerticalAlignment="Center" Height="25" />
+            <TextBox Grid.Row="3" Grid.Column="1" Margin="0,5" Text="{Binding Description}" Height="25"/>
+
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Transaction date:"  Margin="5,5,10,5" VerticalAlignment="Center" Height="25" />
+            <DatePicker Grid.Row="4" Grid.Column="1" Margin="0,5" Text="{Binding SelectedDate}" Height="25"/>
         </Grid>
         <Button Content="OK" Click="Ok_Click" Margin="0,144,0,10" Height="30"/> 
     </Grid>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,22 +19,26 @@ namespace WpfApp1.models
         public Currency TransactionCurrency { get; set; }
         public DateTime TransactionDate { get; set; }
         public string Comment { get; set; }
+        public TransactionPaymentMethod TransactionPaymentMethod { get; set; }
 
-        public Transaction(decimal amount, Currency transactionCurrency, DateTime transactionDate, string comment = "")
+        public Transaction(decimal amount, Currency transactionCurrency, DateTime transactionDate, string comment, TransactionPaymentMethod transactionPaymentMethod)
         {
             Id = Guid.NewGuid();    // change for more user-friendly
             CreationDatetime = DateTime.Now;
             Amount = amount;
             TransactionCurrency = transactionCurrency;
             TransactionDate = transactionDate;
-            Comment = comment;
+            Comment = string.IsNullOrWhiteSpace(comment) ? "" : comment;
+            TransactionPaymentMethod = transactionPaymentMethod;
         }
 
-        public Transaction(decimal amount, string comment) : this(amount, Currency.PLN, DateTime.UtcNow, comment) {}
+        public Transaction(decimal amount, string comment, TransactionPaymentMethod transactionPaymentMethod) : 
+            this(amount, Currency.PLN, DateTime.UtcNow, comment, transactionPaymentMethod) {}
 
         public override string ToString()
         {
-            return $"Id: {Id}, CreationDatetime: {CreationDatetime.ToString()}, Amount: {Amount}, Currency: {TransactionCurrency}, TransactionDate: {TransactionDate}, Comment: {Comment}";
+            return $"Id: {Id}, CreationDatetime: {CreationDatetime.ToString()}, Amount: {Amount}, Currency: {TransactionCurrency}, " +
+                   $"TransactionDate: {TransactionDate}, TransactionPaymentMethod: {TransactionPaymentMethod} Comment: {Comment}";
         }
         public ValidationResult Validate()
         {
@@ -47,6 +52,9 @@ namespace WpfApp1.models
 
             if(TransactionCurrency == null)
                 result.AddError("Currency must be specified.");
+
+            if(TransactionPaymentMethod == null)
+                result.AddError("Transaction payment method cannot be null.");
 
             return result;
         }

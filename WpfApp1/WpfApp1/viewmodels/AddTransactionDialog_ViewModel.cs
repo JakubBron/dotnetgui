@@ -20,9 +20,11 @@ namespace WpfApp1.viewmodels
         public string Description { get; set; }
         public decimal Amount { get; set; }
         public DateTime SelectedDate { get; set; } = DateTime.Today;
+        public TransactionPaymentMethod SelectedTransactionPaymentMethod { get; set; } = TransactionPaymentMethod.DEFAULT;
 
         // data to bind
         public ImmutableList<Currency> Currencies { get; } = Currency.All;
+        public ImmutableList<TransactionPaymentMethod> TransactionPaymentMethods { get; } = TransactionPaymentMethod.All;
 
         // repository
         private readonly ITransactionRepository _repository;
@@ -35,7 +37,7 @@ namespace WpfApp1.viewmodels
 
         public OperationResults ProcessReceivedData()
         {
-            Transaction transactionCandidate = new Transaction(Amount, SelectedCurrency, SelectedDate, Description);
+            Transaction transactionCandidate = new Transaction(Amount, SelectedCurrency, SelectedDate, Description, SelectedTransactionPaymentMethod);
             ValidationResult vr = transactionCandidate.Validate();
             if (vr.IsValid())
             {

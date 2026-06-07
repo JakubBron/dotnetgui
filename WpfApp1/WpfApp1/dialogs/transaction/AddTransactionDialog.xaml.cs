@@ -21,7 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class AddTransactionDialog : Window
     {
-        public AddTransactionDialog_ViewModel ViewModel => (AddTransactionDialog_ViewModel)DataContext;
+        //public AddTransactionDialog_ViewModel ViewModel => (AddTransactionDialog_ViewModel)DataContext;
 
         public AddTransactionDialog(AddTransactionDialog_ViewModel vm)
         {
